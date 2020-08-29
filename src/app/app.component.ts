@@ -1,0 +1,16 @@
+import { Component, ViewEncapsulation, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+  encapsulation: ViewEncapsulation.None
+})
+export class AppComponent {
+  title = 'matrix-test';
+  constructor(){}
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+}
+}

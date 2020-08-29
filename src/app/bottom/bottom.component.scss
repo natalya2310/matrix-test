@@ -1,0 +1,54 @@
+.bottom-section {
+  .section-title {
+    @media (min-width: 768px) {
+      margin-bottom: 160px;
+    }
+  }
+}
+
+.hi-tech-section {
+  height: 460px;
+  background-position: left;
+  background-repeat: no-repeat;
+
+  .image {
+    @media (min-width: 768px) {
+      position: relative;
+      left: 60px;
+    }
+  }
+
+  .text-box {
+    text-align: left;
+    background-color: #edf0f8;
+    padding: 50px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+
+    @media (min-width: 768px) {
+      position: relative;
+      top: 35px;
+      left: -60px;
+      width: 100%;
+      margin: 0;
+    }
+
+    .title {
+      color: #853399;
+      font-family: Heebo-bold;
+      font-size: 38px;
+      text-transform: uppercase;
+    }
+
+    .text {
+      font-size: 15px;
+    }
+
+    .btn {
+      border: 1px solid #853399;
+      background-color: rgba(255, 255, 255, 1);
+    }
+  }
+}

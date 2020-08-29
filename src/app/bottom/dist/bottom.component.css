@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+  .bottom-section .section-title {
+    margin-bottom: 160px;
+  }
+}
+
+.hi-tech-section {
+  height: 460px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .hi-tech-section .image {
+    position: relative;
+    left: 60px;
+  }
+}
+.hi-tech-section .text-box {
+  text-align: left;
+  background-color: #edf0f8;
+  padding: 50px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+@media (min-width: 768px) {
+  .hi-tech-section .text-box {
+    position: relative;
+    top: 35px;
+    left: -60px;
+    width: 100%;
+    margin: 0;
+  }
+}
+.hi-tech-section .text-box .title {
+  color: #853399;
+  font-family: Heebo-bold;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.hi-tech-section .text-box .text {
+  font-size: 15px;
+}
+.hi-tech-section .text-box .btn {
+  border: 1px solid #853399;
+  background-color: white;
+}

@@ -1,0 +1,13 @@
+.top-section {
+  background-image: url(/../assets/images/top_bg.png);
+  height: calc(50vh - 86px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (min-width: 768px) {
+  .top-section {
+    height: calc(100vh - 86px);
+  }
+}

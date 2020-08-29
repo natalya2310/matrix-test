@@ -1,0 +1,125 @@
+.img-section {
+  &.text-black {
+    color: black;
+
+    .btn {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  &.text-white {
+    color: white;
+
+    .btn {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+  }
+}
+
+
+.img-section-title {
+  font-size: 38px;
+  text-transform: uppercase;
+  font-family: Heebo-Extrabold;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 15px;
+  line-height: 1;
+
+  @media (min-width: 768px) {
+    width: 50%;
+    padding-left: 35px;
+    padding-top: 35px;
+    min-height: 110px;
+  }
+}
+
+.text-part {
+  width: 256px;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 15px;
+
+  @media (min-width: 768px) {
+    margin-left: 35px;
+  }
+
+  .bold {
+    font-family: Heebo-bold;
+  }
+
+  .light {
+    font-family: Heebo-light;
+  }
+}
+
+.button-part {
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  .btn {
+    border: 1px solid white;
+  }
+}
+
+
+.img-left,
+.img-right {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-left {
+  @media (min-width: 768px) {
+    width: 60%;
+  }
+}
+
+.img-right {
+  @media (min-width: 768px) {
+    width: 40%;
+  }
+}
+
+.row-1 {
+  .img-left {
+    background-image: url(/../assets/images/digital_transformation.png);
+
+  }
+
+  .img-right {
+    background-image: url(/../assets/images/security.png);
+
+  }
+}
+
+.row-2 {
+  .img-left {
+    background-image: url(/../assets/images/smart_world.png);
+
+    @media (min-width: 768px) {
+      width: 40%;
+    }
+  }
+
+  .img-right {
+    background-image: url(/../assets/images/cloud.png);
+
+    @media (min-width: 768px) {
+      width: 60%;
+    }
+  }
+}
+
+.row-3 {
+  .img-left {
+    background-image: url(/../assets/images/game_changers.png);
+  }
+
+  .img-right {
+    background-image: url(/../assets/images/data.png);
+  }
+}
